@@ -64,19 +64,19 @@
 	
 
 
-// function getFilter(val){
+function getFilter(val){
 
-// 		let fruitArray = [];
-// 		if(val)
-// 		{
-// 			fruitArray = nameFileter.filter((filter) => filter.name.toLowerCase().includes(val));								
-// 			fruitArray = fruitArray.map(filter => `<li>${filter.name}</li>`);				
-// 		}
-// 		// showname(fruitArray);	
-// 		const html = !fruitArray.length ? '' : fruitArray.join('');
-// 		document.querySelector('ul').innerHTML = html;	
+		let fruitArray = [];
+		if(val)
+		{
+			fruitArray = nameFileter.filter((filter) => filter.name.toLowerCase().includes(val));								
+			fruitArray = fruitArray.map(filter => `<li>${filter.name}</li>`);				
+		}
+		// showname(fruitArray);	
+		const html = !fruitArray.length ? '' : fruitArray.join('');
+		document.querySelector('ul').innerHTML = html;	
 
-// 	}
+	}
 
 	// for(var i=1;i<10;i++)
 	// {
